@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #0CC2D4;
+    padding: 10px;
+    text-align: center;
+}
+
+.centered-container {
+    display: inline-block;
+}
+
+#txt-desc {
+    width: 90%;
+    height: 200px; 
+    font-size: 16px; 
+    margin: 10px auto;
+    display: block; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.term {
+    margin-bottom: 30px;
+}
+
+.term h3 {
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.definition {
+    display: none;
+}

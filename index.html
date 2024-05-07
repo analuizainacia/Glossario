@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meu Dicionário Javascript">
+    <meta name="author" content="Ana luiza">
+    <meta name="keywords" content="html, css, web, desenvolvimento, front-end">
+    <title>Meu Dicionário Javascript</title>
+    <link rel="stylesheet" href="css/style">
+    <style>
+        body {
+            font-family: Arial, cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #0CC2D4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .centered-container {
+            display: inline-block;
+        }
+
+        #txt-desc {
+            width: 90%;
+            height: 200px; 
+            font-size: 16px; 
+            margin: 10px auto;
+            display: block; 
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .term {
+            margin-bottom: 30px;
+        }
+
+        .term h3 {
+            cursor: pointer;
+            font-size: 10px;
+        }
+
+        .definition {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="centered-container">
+            <img class="center-content" src="Atv Montanha.jpg" width="300" alt="imagem criada no canva"
+                title="Meu Dicionário Javascript">
+        </div>
+        <div>
+            <h1>Bem-vindo(a) ao Meu Dicionário Javascript!</h1>
+
+            <p>Selecione um termo abaixo:</p>
+            <select title="Tópicos" id="slc-topicos">
+            </select>
+            <p>Descrição:</p>
+            <label for="description" id="lbl-txt-desc"></label>
+            <textarea id="txt-desc" name="description" title="Descrição" placeholder="" rows="12"
+                wrap="soft"></textarea>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JavaScript/java"></script>
+</body>
+
+</html> 
